@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+label {
+  display: block;
+  padding: 1.5rem;
+  font-size: 150%;
+}
+
+#submit-btn {
+    /* height: 1.5rem; */
+  width: 5rem;
+  padding: 0.5rem;
+  font-weight:bold;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(193, 150, 223);
+  background-color: rgb(190, 132, 232);
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+#initial-price {
+  height: 1.5rem;
+  width: 18rem;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(91, 91, 238);
+  outline: none;
+}
+
+#stocks-quantity {
+  height: 1.5rem;
+  width: 18rem;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(91, 91, 238);
+  outline: none;
+}
+
+#current-price {
+  height: 1.5rem;
+  width: 18rem;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(91, 91, 238);
+  outline: none;
+}
