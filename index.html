@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profit-Loss</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    
-    <h1>Stock Profit & Loss <span style="color: rgb(41, 41, 80);">Calculator</span></h1>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>
+      Stock Profit & Loss <span style="color: rgb(41, 41, 80)">Calculator</span>
+    </h1>
 
     <main>
-        <label for="initial-price">
-            <strong style="display: block; padding: 1rem;">Initial Price:-</strong> <input type="text" id="initial-price" placeholder="Enter Initial Price Here">
-        </label>
+      <label for="initial-price">
+        <strong style="display: block; padding: 1rem">Initial Price:-</strong>
+        <input
+          type="text"
+          id="initial-price"
+          placeholder="Enter Initial Price Here"
+        />
+      </label>
 
-        <label for="stocks-quantity">
-            <strong style="display: block; padding:1rem">Quantity Of Stocks:-</strong> <input type="text" id="stocks-quantity" placeholder="Enter The Number of Stocks Bought">
-        </label>
-        <label for="current-price">
-            <strong style="display: block; padding: 1rem;"">Current Price:-</strong> <input type="text" id="current-price" placeholder="Enter The Current Price Of the Stocks">
-        </label>
-        <button id="submit-btn">Tell Me!!</button>
-        <div id="output-btn"></div>
+      <label for="stocks-quantity">
+        <strong style="display: block; padding: 1rem"
+          >Quantity Of Stocks:-</strong
+        >
+        <input
+          type="text"
+          id="stocks-quantity"
+          placeholder="Enter The Number of Stocks Bought"
+        />
+      </label>
+      <label for="current-price">
+        <strong style="display: block; padding: 1rem">Current Price:-</strong>
+        <input
+          type="text"
+          id="current-price"
+          placeholder="Enter The Current Price Of the Stocks"
+        />
+      </label>
+      <button id="submit-btn">Tell Me!!</button>
+      <div id="output-btn"></div>
     </main>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
